@@ -1,5 +1,5 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks() {
+function distanceFromHqInBlocks(d) {
   let b = 42
   if (b > d) {
     return b - d
@@ -8,7 +8,7 @@ function distanceFromHqInBlocks() {
   }
 }
 
-function distanceFromHqInFeet(d) {
-  let b = 264
+function distanceFromHqInFeet(i) {
+  let f = 264
   
 }
