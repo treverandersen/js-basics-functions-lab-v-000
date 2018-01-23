@@ -13,6 +13,10 @@ function distanceFromHqInFeet(b) {
   return distanceFromHqInBlocks(b) * f
 }
 
-function distanceTravelledInFeet(i) {
-  return distanceFromHqInBlocks(i) * 264
+function distanceTravelledInFeet(a, b) {
+  if (a > b) {
+    return (a - b) * 264
+  } else if (a < b) {
+    return (b - a) * 264
+  }
 }
