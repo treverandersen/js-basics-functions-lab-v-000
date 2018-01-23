@@ -9,7 +9,7 @@ function distanceFromHqInBlocks(d) {
 }
 
 function distanceFromHqInFeet(b) {
-  distanceFromHqInBlocks();
+  const b = distanceFromHqInBlocks();
   let f = 264
   
 }
